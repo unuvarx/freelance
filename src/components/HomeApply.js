@@ -16,7 +16,7 @@ export default function HomeApply() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <Link to="contact" > HEMEN BAŞVUR </Link>
+                <Link to="https://wa.me/905365813398" > HEMEN BAŞVUR </Link>
                 <span></span>
                 <span></span>
                 <span></span>

@@ -25,7 +25,7 @@ export default function HomeSummary() {
                     <span className="text-green">
 
                     
-                      <Link to="contact" className="text-green" >Benimle Çalışmak İçin</Link>
+                      <Link to="https://wa.me/905365813398" className="text-green" >Benimle Çalışmak İçin</Link>
 
                       <SendIcon />
                       </span>
