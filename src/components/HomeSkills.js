@@ -35,7 +35,7 @@ export default function HomeSkills() {
         <div className="home-explain-card">
           <img src="/images/mutlu-musteriler.png" alt="" />
           <div>
-            <span>+100 Mutlu</span>
+            <span>Mutlu</span>
             <span>Müşteriler</span>
           </div>
         </div>
