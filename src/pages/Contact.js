@@ -20,7 +20,7 @@ function Contact() {
       </div>
       <div className="contact-icons">
         <div className="icons">
-          <a href="https://web.whatsapp.com/"><WhatsAppIcon className="phone" id="icon" /></a>
+          <a href="https://wa.me/905365813398"><WhatsAppIcon className="phone" id="icon" /></a>
           <p>+90 536 581 3398</p>
         </div>
         <div className="icons">
