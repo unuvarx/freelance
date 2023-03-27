@@ -40,13 +40,13 @@
   }
 
   .home-container {
-    margin: 3%;
+    margin: 5% 2% 0;
     display: flex;
     border-radius: 0;
     justify-content: center;
 
     .card.mb-3 {
-      width: 90%;
+      width: 100%;
       border-radius: 0;
       // border: none;
       .row.g-0 {
@@ -140,7 +140,7 @@
 
 .App {
   .home-explain {
-    margin: 5% 8% 0;
+    margin: 5% 2% 0;
     text-align: center;
 
     .home-explain-cards {
@@ -201,9 +201,13 @@
 
     .card.text-bg-dark {
       border-radius: 0;
-      margin: 0% 8% 0;
-
+      margin: 0% 2% 0;
       text-align: center;
+      height: 35rem;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
       .card-img-overlay {
         display: flex;
         justify-content: center;
@@ -279,7 +283,7 @@
         }
 
         h5 {
-          font-size: 25px;
+          font-size: 150%;
         }
       }
     }
@@ -289,7 +293,7 @@
     height: 25em;
 
     .carousel.slide {
-      margin: 5% 8% 0;
+      margin: 5% 2% 0;
       height: 100%;
       .carousel-item {
         height: 25em;
@@ -393,7 +397,7 @@
       cursor: pointer;
     }
     background-color: #fff;
-    margin: 4% 8%;
+    margin: 4% 2% 0;
     h3 {
       font-size: 25px;
       color: #292929;
@@ -407,7 +411,7 @@
     }
   }
   .contact-container {
-    margin: 7% 8% 0;
+    margin: 7% 2% 0;
     border: 5px solid #ffca91;
 
     .contact-title {
@@ -430,6 +434,12 @@
       align-items: center;
       justify-content: center;
       .icons {
+        
+        a {
+          color: #292929;
+          text-decoration: none;
+        }
+
         width: 25%;
         text-align: center;
         margin: 0% 1% 0;
@@ -441,8 +451,9 @@
           font-size: 40px;
           margin-bottom: 5%;
         }
+
         .phone:hover {
-          color: rgb(59, 121, 59);
+          color: rgb(96, 196, 96);
           background-color: #fff;
         }
         .location:hover {
@@ -460,15 +471,16 @@
   position: absolute;
   width: 100%;
   visibility: hidden;
-
+  
   transition: all 1s ease-in-out;
 
   div {
     display: flex;
     justify-content: center;
     background-color: #292929;
-    opacity: 0.95;
-    margin: 0 8% 0;
+    opacity: 1;
+    margin: 0 2% 0;
+    height: 100%;
 
     label {
       margin: 1% 0 4% 0;
@@ -497,5 +509,16 @@
   #responsive-title {
     color: #ffca91;
     font-weight: bold;
+  }
+  .r-navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 50%;
+    svg {
+      font-size: 30rem;
+      background-color: #292929;
+    }
   }
 }

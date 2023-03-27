@@ -14,6 +14,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-scroll";
+import LogoDevIcon from '@mui/icons-material/LogoDev';
 
 export default function Navbar(props) {
   const drawerWidth = 240;
@@ -77,6 +78,7 @@ export default function Navbar(props) {
           </ListItem>
         </List>
       </Box>
+      
     </div>
   );
 
