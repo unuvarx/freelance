@@ -1,6 +1,6 @@
 import React from "react";
 import SendIcon from "@mui/icons-material/Send";
-import { Link } from "react-scroll";
+
 
 export default function HomeSummary() {
   return (
@@ -25,7 +25,7 @@ export default function HomeSummary() {
                     <span className="text-green">
 
                     
-                      <Link to="https://wa.me/905365813398" className="text-green" >Benimle Çalışmak İçin</Link>
+                      <a href="https://wa.me/905365813398" className="text-green" >Benimle Çalışmak İçin</a>
 
                       <SendIcon />
                       </span>

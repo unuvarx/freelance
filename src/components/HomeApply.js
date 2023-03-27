@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+
 
 export default function HomeApply() {
   return (
@@ -16,7 +16,7 @@ export default function HomeApply() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <Link to="https://wa.me/905365813398" > HEMEN BAŞVUR </Link>
+                <a href="https://wa.me/905365813398" > HEMEN BAŞVUR </a>
                 <span></span>
                 <span></span>
                 <span></span>
