@@ -1,0 +1,501 @@
+/* rgb color */
+/* siyah için #151515 */
+/* bej #F7BA79 */
+/* koyu lacivert #292929 */
+#root {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+    margin: 0 1% 0;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  div.MuiContainer-root.MuiContainer-maxWidthXl.css-19r6kue-MuiContainer-root {
+    background-color: #292929;
+    border-top: 1px solid #616161;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #292929;
+  }
+  .navbar-title {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px black;
+    h3 {
+      color: #292929;
+      font-weight: 800;
+      font-size: 40px;
+    }
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    .MuiButtonBase-root.MuiCardActionArea-root.css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root {
+      display: flex;
+    }
+  }
+
+  .home-container {
+    margin: 3%;
+    display: flex;
+    border-radius: 0;
+    justify-content: center;
+
+    .card.mb-3 {
+      width: 90%;
+      border-radius: 0;
+      // border: none;
+      .row.g-0 {
+        align-items: center;
+        padding: 0%;
+        .card-text-button {
+          .container-btn {
+            width: auto;
+
+            flex-direction: column;
+
+            //border: 2px solid black;
+          }
+
+          .btn {
+            margin: 5px auto;
+            border: none;
+            padding: 5px 0px;
+            font-size: 20px;
+            position: relative;
+            &::before {
+              transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+              content: "";
+              width: 50%;
+              height: 100%;
+              background: #ffca91;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+
+            & .btn-text {
+              color: white;
+              // check out mdn docs for different types of blend modes.
+              mix-blend-mode: difference;
+            }
+            &:hover {
+              &::before {
+                background: #fff;
+                width: 100%;
+              }
+            }
+            //rounded btn styles
+            &.rounded {
+              border-radius: 50px;
+              & .text-green {
+                color: #ffff;
+                mix-blend-mode: difference;
+                a {
+                  text-decoration: none;
+                }
+              }
+
+              &::before {
+                border-radius: 50px;
+                width: 25%;
+                background: #292929;
+              }
+              &:hover {
+                &::before {
+                  background: #292929;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+        .card-title {
+          font-size: 30px;
+          font-weight: 550;
+        }
+        .card-text {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  background-color: #292929;
+  border-radius: 0;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #292929;
+}
+
+.App {
+  .home-explain {
+    margin: 5% 8% 0;
+    text-align: center;
+
+    .home-explain-cards {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 3%;
+    }
+
+    .home-explain-title {
+      text-align: center;
+      h3 {
+        font-weight: bold;
+      }
+    }
+    .home-explain-card {
+      background-color: #292929;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid black;
+      width: 24%;
+      padding: 0.5%;
+      div {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+      span {
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .navbar-btns {
+    text-decoration: none;
+    color: #fff;
+  }
+  .navbar-btns:hover {
+    color: #ffca91;
+  }
+
+  .navbar-btns.active {
+    color: #fff;
+  }
+  .overlays-card {
+    width: 100%;
+
+    .card.text-bg-dark {
+      border-radius: 0;
+      margin: 0% 8% 0;
+
+      text-align: center;
+      .card-img-overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        nav ul li {
+          --c: #ffff;
+          color: var(--c);
+          font-size: 20px;
+          border: 0.3em solid var(--c);
+
+          width: 100%;
+          height: 3em;
+          text-transform: uppercase;
+          font-weight: bold;
+          letter-spacing: 0.1em;
+          text-align: center;
+          line-height: 2.5em;
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          transition: 0.5s;
+        }
+
+        nav ul li span {
+          position: absolute;
+          width: 25%;
+          height: 100%;
+          background-color: var(--c);
+          transform: translateY(150%);
+          border-radius: 50%;
+          left: calc((var(--n) - 1) * 25%);
+          transition: 0.5s;
+          transition-delay: calc((var(--n) - 1) * 0.1s);
+          z-index: -1;
+        }
+
+        nav ul li a:hover {
+          color: black;
+          cursor: pointer;
+        }
+
+        nav ul li:hover span {
+          transform: translateY(0) scale(2);
+        }
+
+        nav ul li span:nth-child(1) {
+          --n: 1;
+        }
+
+        nav ul li span:nth-child(2) {
+          --n: 2;
+        }
+
+        nav ul li span:nth-child(3) {
+          --n: 3;
+        }
+
+        nav ul li span:nth-child(4) {
+          --n: 4;
+        }
+
+        h5 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  .home-carousel-container {
+    height: 25em;
+
+    .carousel.slide {
+      margin: 5% 8% 0;
+      height: 100%;
+      .carousel-item {
+        height: 25em;
+        .d-block.w-100 {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .carousel-caption {
+      h3 {
+        font-size: 23px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    .carousel-indicators {
+      opacity: 0;
+      button {
+        cursor: default;
+      }
+    }
+  }
+
+  .footer {
+    background-color: #292929;
+    margin-top: 7%;
+
+    .footer-informations {
+      display: flex;
+
+      padding: 1% 8% 1%;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      a:hover {
+        color: #ffca91;
+      }
+
+      h5 {
+        font-size: 17px;
+
+        color: #fff;
+      }
+      .footer-icons {
+        display: flex;
+        flex-wrap: nowrap;
+
+        flex-direction: row;
+        .icon {
+          font-size: 40px;
+          cursor: pointer;
+          color: #fff;
+        }
+        .icon:hover {
+          color: #ffca91;
+        }
+      }
+    }
+
+    .footer-hr {
+      padding: 1% 8% 1%;
+      div {
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: #ffff;
+          margin: 0 1% 0;
+        }
+        a:hover {
+          color: #ffca91;
+          cursor: pointer;
+        }
+      }
+      hr {
+        color: #fff;
+      }
+    }
+    .footer-rights-reserved {
+      padding: 1% 8% 1%;
+      text-align: center;
+      h3 {
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+  }
+  #about {
+    position: relative;
+  }
+  .about-doing {
+    span {
+      color: #292929;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    background-color: #fff;
+    margin: 4% 8%;
+    h3 {
+      font-size: 25px;
+      color: #292929;
+      label {
+        font-size: 50px;
+        font-weight: bold;
+      }
+    }
+    p {
+      color: #292929;
+    }
+  }
+  .contact-container {
+    margin: 7% 8% 0;
+    border: 5px solid #ffca91;
+
+    .contact-title {
+      text-align: center;
+      p {
+        font-size: 16px;
+        margin: 2%;
+      }
+      h2 {
+        font-weight: bold;
+        label {
+          font-size: 60px;
+          color: #ffca91;
+        }
+      }
+    }
+    .contact-icons {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      .icons {
+        width: 25%;
+        text-align: center;
+        margin: 0% 1% 0;
+        padding: 3%;
+        p {
+          font-size: 13px;
+        }
+        #icon {
+          font-size: 40px;
+          margin-bottom: 5%;
+        }
+        .phone:hover {
+          color: rgb(59, 121, 59);
+          background-color: #fff;
+        }
+        .location:hover {
+          color: rgb(235, 133, 0);
+        }
+        .mail:hover {
+          color: rgb(0, 146, 231);
+        }
+      }
+    }
+  }
+}
+// cv popup
+.cv-container {
+  position: absolute;
+  width: 100%;
+  visibility: hidden;
+
+  transition: all 1s ease-in-out;
+
+  div {
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
+    opacity: 0.95;
+    margin: 0 8% 0;
+
+    label {
+      margin: 1% 0 4% 0;
+      font-size: 20px;
+      cursor: pointer;
+      color: #fff;
+    }
+    img {
+      width: 70%;
+      padding: 2%;
+      height: 100%;
+    }
+  }
+}
+#appbar {
+  background-color: #292929;
+  opacity: 0.9;
+}
+#responsive-navbar {
+  height: 100%;
+  background-color: #292929;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #responsive-title {
+    color: #ffca91;
+    font-weight: bold;
+  }
+}
