@@ -34,9 +34,9 @@ function About() {
         </div>
         <div>
           <p>
-            Ben Sefa Ünüvar. Yirmi bir yaşındayım. Adana Alparslan Türkeş Bilim
+            Ben Sefa Ünüvar. Adana Alparslan Türkeş Bilim
             ve Teknoloji Üniversitesinde bir lisans öğrencisiyim. %100 İngilizce
-            eğitim dili olan Yazılım Mühendisliği ikinci sınıf öğrencisiyim.
+            eğitim dili olan Yazılım Mühendisliği üçüncü sınıf öğrencisiyim.
             Eğitimime devam etmekte olup Adana ve Adana çevresindeki
             etkinliklere katılmaktayım.
             <span
@@ -58,7 +58,7 @@ function About() {
         </div>
         <div>
           <p>
-            Son 4 yıldır web programlama, mobil uygulama geliştirme gibi bir çok
+            Son 5 yıldır web programlama, mobil uygulama geliştirme gibi bir çok
             alanda bilgi edindim. Edindiğim bu bilgileri uygulamak ve sizlerle
             daha kolay iletişim kurabilmek için bu siteyi geliştirdim. Severek
             yaptığım bu işte çalışmalara devam ediyor ve bu sektörde en önemli
