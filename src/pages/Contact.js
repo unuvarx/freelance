@@ -8,14 +8,7 @@ function Contact() {
     <div className="contact-container" id="contact">
       <div className="contact-title">
         <h2>Projelerinizi gerçekleştirmek ister misiniz<label htmlFor="">?</label> </h2>
-        <p>
-          Projeniz için ücret teklifi almak, aklına takılan bir soruyu sormak için
-          mail adresimden bana ulaşabilirsiniz. Benimle ne kadar çok detay
-          paylaşırsanız, size o kadar iyi ve hızlı yardımcı olabileceğimi
-          unutmayın. Şirketiniz, hizmetleriniz, ürünleriniz için kullanışlı,
-          güncel, dinamik website tasarımları oluşturuyoruz. İster mevcut
-          websitenizi güncellemek isterseniz de yepyeni bir website tasarımına
-          sahip olmak için benimle iletişime geçebilirsiniz.
+        <p>Projeniz için ücret teklifi almak veya aklınızdaki soruları sormak için bana e-posta yoluyla ulaşabilirsiniz. Paylaştığınız detaylar ne kadar kapsamlı olursa, size o kadar hızlı ve etkili destek sağlayabilirim. Web siteleri, mobil uygulamalar (Android & iOS) ve masaüstü yazılımlar (Windows Forms, WPF) geliştiriyorum. Mevcut projelerinizi güncelleyebilir veya ihtiyacınıza özel, modern ve işlevsel yazılım çözümleri oluşturabilirim. İletişime geçerek projenizi hayata geçirebiliriz.
         </p>
       </div>
       <div className="contact-icons">
